@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700;800&display=swap');
+
+:root {
+    --primary: #58A9A5;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -13,11 +19,12 @@ html {
 }
 
 body {
-    font-family: 'Times New Roman', Times, serif; /*зависит от макета*/
+    font-family: 'Poppins', sans-serif;
     position: relative;
     min-width: 320px;
     line-height: 1.6;
     font-size: 16px;
+    padding: 0 40px; /*зависит от макета*/
 }
 
 html, body {
@@ -38,11 +45,20 @@ li {
 
 .container {
     width: 100%;
-    max-width: 1200px;
+    max-width: 1611px;
     margin: 0 auto;
-    padding: 0 40px; /*зависит от макета*/
 }
 
 .about__inner {
     display: flex;
+}
+
+h2 {
+    color: #1C2323;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 70px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
 }
