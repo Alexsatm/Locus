@@ -144,4 +144,12 @@ header {
 .design-btn {
     font-weight: 700;
     border-radius: 20px 20px 20px 0px;
+    padding-left: 4px;
+}
+
+.design-right {
+    height: 731px;
+    width: 761px;
+    background-color: #CCF0E6;
+    border-radius: 130px;
 }
