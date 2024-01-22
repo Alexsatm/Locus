@@ -20,12 +20,10 @@ html {
 
 body {
     font-family: 'Poppins', sans-serif;
-    position: relative;
     min-width: 320px;
     line-height: normal;
     font-size: 16px;
     font-style: normal;
-    padding: 0 40px; /*зависит от макета*/
 }
 
 html, body {
@@ -60,16 +58,6 @@ button {
     outline: 0;
 }
 
-.container {
-    width: 100%;
-    max-width: 1611px;
-    margin: 0 auto;
-}
-
-.about__inner {
-    display: flex;
-}
-
 h2 {
     color: #1C2323;
     text-align: center;
@@ -80,11 +68,26 @@ h2 {
     line-height: normal;
 }
 
+/* ------------------------------- */
+
+.container {
+    width: 100%;
+    max-width: 1620px;
+    margin: 0 auto;
+    padding: 0 162px; /*зависит от макета*/
+}
+
 header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-top: 85px;
+    margin-top: 62px;
+    height: 130px;
+}
+
+.logo {
+    display: flex;
+    column-gap: 6px;
 }
 
 .logo a {
@@ -92,17 +95,20 @@ header {
     font-family: Poppins;
     font-size: 35px;
     font-weight: 800;
+    margin-top: 5px;
 }
 
-ul {
+.header-list {
     display: flex;
     color: #404242;
     font-size: 25px;
     font-weight: 400;
     column-gap: 85px;
+    margin-left: 97px;
 }
 
-ul li a:hover{
+
+.header-link:hover{
     color: #58A9A5;
     font-weight: 700;
 }
