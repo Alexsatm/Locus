@@ -119,4 +119,29 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin-top: 98px;
+}
+
+.design-title {
+    color: #1C2323;
+    font-family: Poppins;
+    font-size: 70px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.design-desc {
+    color: #404242;
+    font-family: Poppins;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 50px 0px;
+}
+
+.design-btn {
+    font-weight: 700;
+    border-radius: 20px 20px 20px 0px;
 }
