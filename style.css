@@ -112,3 +112,11 @@ header {
     color: #58A9A5;
     font-weight: 700;
 }
+
+/* ------------------------------ */
+
+.design-inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
