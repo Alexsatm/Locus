@@ -378,12 +378,12 @@ header {
 .testimonial-brands {
     display: flex;
     align-items: center;
-    margin-top: 130px;
+    margin-top: 50px;
     gap: 0 90px;
 }
 
-.testimonial-brands {
-    max-width: 296px;
+.testimonial-brands img{
+    max-width: 270px;
 }
 
 .testimonial-page {
@@ -444,4 +444,10 @@ header {
     font-style: italic;
     font-weight: 500;
     margin-left: 137px;
+}
+
+/* ? -------------Section 6 -------------------- */
+.contact--inner {
+    margin-top: 250px;
+    display: flex;
 }
