@@ -352,11 +352,22 @@ header {
     color: #486958;
     font-size: 20px;
     font-weight: 500;
+    margin-top: 5px;
+    margin-bottom: 35px;
 }
 
 .proj-block img {
     max-width: 450px;
     height: 450px;
+}
+
+.pr-bl-2  p {
+    margin: 0;
+}
+
+.pr-bl-2 h3 {
+    margin-top: 35px;
+    margin-bottom: 5px;
 }
 
 /* ?---------------Section 5 ------------------- */
