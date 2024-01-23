@@ -294,3 +294,19 @@ header {
     justify-content: space-between;
     margin-top: 90px;
 }
+
+.visual-left img {
+    width: 642px;
+    height: 650px;
+}
+
+.visual-title {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.visual-desc {
+    color: #486958;
+    width: 650px;
+    font-weight: 500;
+}
