@@ -386,6 +386,10 @@ header {
     max-width: 296px;
 }
 
+.testimonial-page {
+    display: flex;
+}
+
 .testimonial-left img {
     max-width: 615px;
 }
@@ -393,5 +397,15 @@ header {
 .testimonial-right {
     width: 997px;
     height: 700px;
-    background-color: #CCF0E6; 
+    background-color: #CCF0E6;
+}
+
+
+
+
+.testimonial-right span {
+    color: #58A9A5;
+    font-size: 25px;
+    font-style: italic;
+    font-weight: 500;
 }
