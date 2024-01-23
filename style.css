@@ -322,13 +322,44 @@ header {
     margin-top: 120px;
 }
 
+.project-line {
+    display: flex;
+    flex-direction: column;
+    margin-top: 51px;
+    gap: 15px 0;
+}
+
+.project-line span {
+    width: 135px;
+    height: 5px;
+    background-color: #58A9A5;
+}
+
 .project-blocks {
     display: flex;
     align-items: center;
+    gap: 0 120px;
+    margin-top: 95px;
 }
 
 .proj-block h3 {
     color: #58A9A5;
     font-size: 40px;
     font-weight: 700;
+}
+
+.proj-block p {
+    color: #486958;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.proj-block img {
+    max-width: 450px;
+    height: 450px;
+}
+
+/* ?---------------Section 5 ------------------- */
+.testimonial-inner {
+    margin-top: 250px;
 }
