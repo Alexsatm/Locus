@@ -290,9 +290,9 @@ header {
 /* ?-----------------Section 3 ------------------- */
 .visual-inner {
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: space-between;
-    margin-top: 90px;
+    margin-top: 150px;
 }
 
 .visual-left img {
@@ -303,11 +303,13 @@ header {
 .visual-title {
     font-size: 40px;
     font-weight: 700;
+    text-align: left;
+    margin-bottom: 50px;
 }
 
 .visual-desc {
     color: #486958;
-    width: 650px;
+    width: 700px;
     font-weight: 500;
 }
 
