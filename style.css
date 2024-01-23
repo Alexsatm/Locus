@@ -388,6 +388,7 @@ header {
 
 .testimonial-page {
     display: flex;
+    margin-top: 62px;
 }
 
 .testimonial-left img {
@@ -396,7 +397,7 @@ header {
 
 .testimonial-right {
     width: 997px;
-    height: 700px;
+    height: 660px;
     background-color: #CCF0E6;
 }
 
@@ -404,6 +405,7 @@ header {
     display: flex;
     gap: 0 117px;
     justify-content: center;
+    margin-top: 50px;
 }
 
 .testimonial-right-date h4 {
@@ -412,10 +414,11 @@ header {
     font-size: 70px;
     font-style: normal;
     font-weight: 800;
-    line-height: normal
+    line-height: normal;
+    margin: 0;
 }
 
- .testimonial-right-date span {
+ .testimonial-right-date h3 {
     color: #58A9A5;
     font-family: Poppins;
     font-size: 30px;
@@ -426,9 +429,13 @@ header {
 
 
 .testimonial-right p {
+    max-width: 752px;
     color: #486958;
     font-size: 25px;
     font-weight: 500;
+    margin-top: 123px;
+    margin-bottom: 50px;
+    margin-left: 137px;
 }
 
 .testimonial-right span {
@@ -436,4 +443,5 @@ header {
     font-size: 25px;
     font-style: italic;
     font-weight: 500;
+    margin-left: 137px;
 }
