@@ -314,3 +314,21 @@ header {
 }
 
 /* ?-------------------Section 4 ------------------------ */
+
+.project-inner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 120px;
+}
+
+.project-blocks {
+    display: flex;
+    align-items: center;
+}
+
+.proj-block h3 {
+    color: #58A9A5;
+    font-size: 40px;
+    font-weight: 700;
+}
