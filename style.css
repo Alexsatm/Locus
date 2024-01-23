@@ -400,6 +400,12 @@ header {
     background-color: #CCF0E6;
 }
 
+.testimonial-right-date {
+    display: flex;
+    gap: 0 117px;
+    justify-content: center;
+}
+
 .testimonial-right-date h4 {
     color: #58A9A5;
     font-family: Poppins;
@@ -409,13 +415,13 @@ header {
     line-height: normal
 }
 
-h4 span {
+ .testimonial-right-date span {
     color: #58A9A5;
     font-family: Poppins;
     font-size: 30px;
     font-style: normal;
     font-weight: 600;
-    line-height: normal; 
+    line-height: normal;
 }
 
 
