@@ -43,6 +43,10 @@ li {
     list-style-type: none;
 }
 
+img {
+    width: 100%;
+}
+
 button {
     width: 271px;
     height: 80px;
@@ -68,21 +72,21 @@ h2 {
     line-height: normal;
 }
 
-/* ------------------------------- */
+/*? ------------------------------- */
 
 .container {
     width: 100%;
-    max-width: 1620px;
+    max-width: 1520px;
     margin: 0 auto;
-    padding: 0 162px; /*зависит от макета*/
+    padding: 0 20px; /*зависит от макета*/
 }
 
 header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-top: 62px;
-    height: 130px;
+    margin-top: 30px;
+    min-height: 130px;
 }
 
 .logo {
@@ -98,43 +102,53 @@ header {
     margin-top: 5px;
 }
 
-.header-list {
+.menu-list {
     display: flex;
-    color: #404242;
-    font-size: 25px;
-    font-weight: 400;
-    column-gap: 85px;
+    align-items: center;
+    gap: 0 85px;
     margin-left: 97px;
 }
 
+.menu-item {
+    width: 120px;
+}
 
-.header-link:hover{
+.menu-link {
+    font-size: 25px;
+    font-weight: 400;
+    color: #404242;
+    transition: all 0.3s;
+}
+
+
+.menu-link:hover{
     color: #58A9A5;
     font-weight: 700;
 }
 
-/* ------------------------------ */
+/*? -----------Section 1 ------------------- */
 
 .design-inner {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-top: 98px;
+    margin-top: 90px;
 }
 
 .design-title {
     color: #1C2323;
     font-family: Poppins;
-    font-size: 70px;
+    font-size: 65px;
     font-style: normal;
     font-weight: 800;
     line-height: normal;
 }
 
 .design-desc {
+    width: 650px;
     color: #404242;
     font-family: Poppins;
-    font-size: 30px;
+    font-size: 27px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -148,18 +162,28 @@ header {
 }
 
 .design-right {
-    height: 731px;
-    width: 761px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-height: 640px;
+    max-width: 720px;
     background-color: #CCF0E6;
     border-radius: 130px;
 }
 
-/* ------------------------- */
+.design-right img {
+    margin-top: 50px;
+    max-width: 723px;
+    max-height: 723px;
+}
+
+/*? --------------------Section 2 -------------------------------- */
 
 .works-inner {
     flex-direction: column;
     display: flex;
     align-items: center;
+    margin-top: 120px;
 }
 
 .video {
