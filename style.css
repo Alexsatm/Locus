@@ -379,4 +379,19 @@ header {
     display: flex;
     align-items: center;
     margin-top: 130px;
+    gap: 0 90px;
+}
+
+.testimonial-brands {
+    max-width: 296px;
+}
+
+.testimonial-left img {
+    max-width: 615px;
+}
+
+.testimonial-right {
+    width: 997px;
+    height: 700px;
+    background-color: #CCF0E6; 
 }
