@@ -62,6 +62,10 @@ button {
     outline: 0;
 }
 
+button:hover {
+    background-color: #6cb5b2;
+}
+
 h2 {
     color: #1C2323;
     text-align: center;
@@ -69,6 +73,15 @@ h2 {
     font-size: 70px;
     font-style: normal;
     font-weight: 800;
+    line-height: normal;
+}
+
+p {
+    color: #404242;
+    font-family: Poppins;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
     line-height: normal;
 }
 
@@ -118,12 +131,28 @@ header {
     font-weight: 400;
     color: #404242;
     transition: all 0.3s;
+    position: relative;
 }
 
 
 .menu-link:hover{
     color: #58A9A5;
     font-weight: 700;
+}
+
+.menu-link::after{
+    content: '';
+    background-color: #FEC62D;
+    width: 0;
+    height: 6px;
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    transition: width 0.8s;
+}
+
+.menu-link:hover::after{
+    width: 100%;
 }
 
 /*? -----------Section 1 ------------------- */
@@ -186,6 +215,82 @@ header {
     margin-top: 120px;
 }
 
-.video {
+.works-desc {
+    text-align: center;
+    margin-bottom: 71px;
+}
+
+.video-block {
     display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.video-block img {
+   max-width: 1063px;
+   height: 350px;
+}
+
+.video-info {
+    width: 549px;
+    height: 350px;
+    border-radius: 0px 10px 10px 0px;
+    background-color: #CCF0E6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.video-info-desc {
+    color: #486958;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.video-info-see {
+    color: #486958;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    align-self: flex-start;
+    margin-left: 65px;
+    margin-top: 40px;
+}
+
+.pause-block {
+    position: absolute;
+    right: 390px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 128px;
+    height: 128px;
+    border-radius: 65px;
+    background-color: rgba(255, 255, 255, 0.40)
+}
+
+.pause-block div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 100px;
+    border-radius: 65px;
+    background-color: #FFF;
+}
+
+.pause-block img {
+    width: 27px;
+    height: 41px;
+}
+
+
+
+/* ?-----------------Section 3 ------------------- */
+.visual-inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 90px;
 }
