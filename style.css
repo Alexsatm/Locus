@@ -518,10 +518,13 @@ form button {
     }
 
     /* ----------------------------- */
-    /* .video-block img {
-        max-width: 915px;
-    } */
+    .video-block img {
+        max-width: 830px;
+    }
 
+    .video-info {
+        width: 444px;
+    }
     /* ---------visual-------------------- */
     .visual-left img {
         width: 566px;
@@ -582,6 +585,8 @@ form button {
     }
 }
 
+/* ?-------------------------------- */
+
 @media screen  and (max-width: 1210px){
     .container {
         max-width: 1000px;
@@ -607,12 +612,56 @@ form button {
         display: none;
     }
 
+    /*  works */
+    .video-block img {
+        max-width: 514px;
+    }
+
+    /* visual */
+
+    .visual-inner {
+        align-items: center;
+        flex-direction: column-reverse;
+    }
+
+    .visual-title {
+        font-size: 50px;
+        text-align: center;
+    }
+
+    .visual-desc {
+        margin-bottom: 80px;
+    }
+
+    /* project */
     .proj-block img {
         height: 316px;
     }
+
+    /* testimonial */
+
+    .testimonial-inner {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .testimonial-page {
+        flex-direction: column;
+        /* text-align: center; */
+    }
+
+    .testimonial-left img {
+        max-width: 778px;
+        height: 683px;
+    }
+
+    .testimonial-right {
+        width: 778px;
+    }
 }
 
-@media screen  and (max-width: 1200px){
+/* @media screen  and (max-width: 1200px){
     .container {
         max-width: 1000px;
     }
@@ -622,4 +671,4 @@ form button {
     .container {
         max-width: 1000px;
     }
-}
+} */
