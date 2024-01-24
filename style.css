@@ -685,8 +685,32 @@ form button {
     .testimonial-brands img {
         max-width: 155px;
     }
+
+    .video-block {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .video-block img {
+        max-width: 632px;
+    }
+
+    .video-info {
+        width: 637px;
+        height: 283px;
+    }
+
+    .video-info-see {
+        align-self: flex-end;
+        margin-right: 103px;
+    }
+
+    .visual-desc {
+        font-size: 25px;
+    }
 }
 
-@media screen  and (max-width: 900px){
+@media screen  and (max-width: 820px){
     
+
 }
