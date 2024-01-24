@@ -547,9 +547,16 @@ form button {
     .contact--inner {
         flex-direction: column;
         align-items: center;
+        margin-top: 160px;
     }
 
-    form{
+    .contact-left {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    form {
         margin-top: 70px;
     }
 }
@@ -557,15 +564,31 @@ form button {
 
 /* ?-------------------------------------------------------------------- */
 
-@media screen  and (max-width: 1200px){
-    .container {
+@media screen  and (max-width: 1350px){
+    /* .container {
         max-width: 1000px;
+    } */
+
+    .testimonial-brands {
+        gap: 0 62px;
+    }
+
+    .testimonial-brands img {
+        max-width: 239px;
+    }
+
+    .testimonial-right p {
+        margin-left: 60px;
     }
 }
 
-@media screen  and (max-width: 1200px){
+@media screen  and (max-width: 1210px){
     .container {
         max-width: 1000px;
+    }
+
+    .proj-block img {
+        height: 316px;
     }
 }
 
