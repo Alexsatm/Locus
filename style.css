@@ -583,14 +583,22 @@ form button {
     .testimonial-right p {
         margin-left: 60px;
     }
+
+    .testimonial-right-date h4 {
+        font-size: 60px;
+    }
+
+    .testimonial-right-date h3 {
+        font-size: 25px;
+    }
 }
 
 /* ?-------------------------------- */
 
 @media screen  and (max-width: 1210px){
-    .container {
+    /* .container {
         max-width: 1000px;
-    }
+    } */
 
     .menu {
         display: none;
@@ -661,13 +669,15 @@ form button {
     }
 }
 
-/* @media screen  and (max-width: 1200px){
-    .container {
-        max-width: 1000px;
+/* ?-------------------------------------------------------- */
+
+@media screen  and (max-width: 1120px){
+    .testimonial-brands img {
+        max-width: 180px;
     }
 }
 
-@media screen  and (max-width: 1200px){
+/* @media screen  and (max-width: 900px){
     .container {
         max-width: 1000px;
     }
