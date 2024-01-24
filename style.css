@@ -378,12 +378,13 @@ header {
 .testimonial-brands {
     display: flex;
     align-items: center;
+    justify-content: center;
     margin-top: 50px;
     gap: 0 90px;
 }
 
 .testimonial-brands img{
-    max-width: 270px;
+    max-width: 250px;
 }
 
 .testimonial-page {
@@ -450,4 +451,21 @@ header {
 .contact--inner {
     margin-top: 250px;
     display: flex;
+    margin-bottom: 334px;
+    justify-content: space-between;
+}
+
+form {
+    width: 795px;
+    height: 375px;
+    border: 1px solid #486958;
+}
+
+input, textarea {
+    color: #486958;
+    font-family: Poppins;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
 }
