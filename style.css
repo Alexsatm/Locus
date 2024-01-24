@@ -261,38 +261,6 @@ header {
     margin-top: 40px;
 }
 
-.pause-block {
-    position: absolute;
-    right: 390px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 128px;
-    height: 128px;
-    border-radius: 65px;
-    background-color: rgba(255, 255, 255, 0.40)
-}
-
-.pause-block div {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100px;
-    height: 100px;
-    border-radius: 65px;
-    background-color: #FFF;
-    position: relative;
-}
-
-.pause-block img {
-    position: absolute;
-    left: 40px;
-    width: 27px;
-    height: 41px;
-}
-
-
-
 /* ?-----------------Section 3 ------------------- */
 .visual-inner {
     display: flex;
@@ -519,10 +487,42 @@ form button {
 /*Todo  --------------------------Media css-------------------------------*/
 
 @media screen  and (max-width: 1440px){
-    /* .container {
-        max-width: 1200px;
+    .container {
+        max-width: 1300px;
+    }
+
+    button {
+        width: 230px;
+    }
+
+    .menu-list {
+        gap: 0 54px;
+    }
+
+    /* -------------------- */
+    .design-title {
+        font-size: 58px;
+    }
+
+    .design-desc {
+        max-width: 560px;
+        font-size: 24px;
+    }
+
+    .design-right img {
+        margin-top: 0;
+        max-width: 560px;
+        max-height: 560px;
+    }
+
+    /* ----------------------------- */
+    /* .video-block img {
+        max-width: 915px;
     } */
 }
+
+
+/* ?-------------------------------------------------------------------- */
 
 @media screen  and (max-width: 1200px){
     .container {
