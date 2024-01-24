@@ -278,9 +278,12 @@ header {
     height: 100px;
     border-radius: 65px;
     background-color: #FFF;
+    position: relative;
 }
 
 .pause-block img {
+    position: absolute;
+    left: 40px;
     width: 27px;
     height: 41px;
 }
@@ -503,5 +506,8 @@ textarea {
 }
 
 form button {
+    position: absolute;
+    right: 54px;
+    bottom: 37px;
     border-radius: 20px 20px 20px 0px;
 }
