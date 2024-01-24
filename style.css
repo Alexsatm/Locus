@@ -677,8 +677,16 @@ form button {
     }
 }
 
-/* @media screen  and (max-width: 900px){
-    .container {
-        max-width: 1000px;
+@media screen  and (max-width: 1000px){
+    form {
+        width: 742px;
     }
-} */
+
+    .testimonial-brands img {
+        max-width: 155px;
+    }
+}
+
+@media screen  and (max-width: 900px){
+    
+}
