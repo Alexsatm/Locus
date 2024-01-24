@@ -455,10 +455,17 @@ header {
     justify-content: space-between;
 }
 
+.contact-left h2 {
+    text-align: left;
+}
+
 form {
-    width: 795px;
-    height: 375px;
+    width: 950px;
+    height: 385px;
     border: 1px solid #486958;
+    display: flex;
+    flex-direction: column;
+    position: relative;
 }
 
 input, textarea {
@@ -468,4 +475,33 @@ input, textarea {
     font-style: normal;
     font-weight: 500;
     line-height: normal;
+    border: 0;
+    outline: 0;
+}
+
+input::placeholder, textarea::placeholder {
+    color: #486958;
+    font-family: Poppins;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+input {
+    border-bottom: 1px solid #000;
+    margin-top: 57px;
+    margin-left: 54px;
+    margin-right: 54px;
+}
+
+textarea {
+    width: 400px;
+    margin-left: 54px;
+    margin-right: 54px;
+    margin-top: 40px;
+}
+
+form button {
+    border-radius: 20px 20px 20px 0px;
 }
