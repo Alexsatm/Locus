@@ -60,6 +60,7 @@ button {
     line-height: normal;
     border: 0;
     outline: 0;
+    cursor: pointer;
 }
 
 button:hover {
@@ -454,7 +455,7 @@ header {
 .contact--inner {
     margin-top: 250px;
     display: flex;
-    margin-bottom: 334px;
+    margin-bottom: 200px;
     justify-content: space-between;
 }
 
