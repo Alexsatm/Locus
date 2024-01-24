@@ -708,9 +708,26 @@ form button {
     .visual-desc {
         font-size: 25px;
     }
+    /* project */
+    .project-blocks {
+        flex-direction: column;
+        gap: 90px 0;
+    }
+
+    .proj-block {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 }
 
 @media screen  and (max-width: 820px){
-    
+    .testimonial-right {
+        width: 700px;
+    }
+
+    .testimonial-left img {
+        max-width: 700px;
+    }
 
 }
