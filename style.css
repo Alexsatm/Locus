@@ -587,6 +587,26 @@ form button {
         max-width: 1000px;
     }
 
+    .menu {
+        display: none;
+    }
+
+    .design-inner {
+        flex-direction: column;
+    }
+
+    .design-desc {
+        max-width: 863px;
+    }
+
+    .design-right {
+        margin-top: 60px;
+    }
+
+    .design-right  img {
+        display: none;
+    }
+
     .proj-block img {
         height: 316px;
     }
