@@ -537,6 +537,10 @@ form button {
     transform: rotate(45deg) translate(0, 50%);
 }
 
+.open {
+    display: flex;
+}
+
 /*Todo  --------------------------Media css-------------------------------*/
 
 @media screen  and (max-width: 1440px){
