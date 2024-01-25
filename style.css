@@ -752,7 +752,7 @@ form button {
 
 @media screen  and (max-width: 785px){
     form {
-        width: 600px;
+        width: 550px;
         height: 450px;
     }
 
@@ -760,7 +760,23 @@ form button {
 
 
 @media screen  and (max-width: 650px){
-    
+    .testimonial-right {
+        width: 550px;
+    }
+
+    .testimonial-right-date h4 {
+        font-size: 40px;
+    }
+
+    .testimonial-right-date h3 {
+        font-size: 18px;
+    }
+
+    .testimonial-right p {
+        max-width: 396px;
+        margin-top: 54px;
+        margin-bottom: 31px
+    }
 }
 
 /* @media screen  and (max-width: 400px){
