@@ -838,11 +838,18 @@ form button {
         font-size: 25px;
     }
 
-
     button {
         width: 160px;
         height: 66px;
         font-size: 20px;
+    }
+
+    .design-title {
+        font-size: 40px;
+    }
+
+    .design-desc {
+        max-width: 440px;
     }
 
     .testimonial-left img {
@@ -881,6 +888,19 @@ form button {
 
 /*? ------------------------------- */
 
-@media screen  and (max-width: 500px){
-    
+@media screen  and (max-width: 545px){
+    .video-block img {
+        max-width: 400px;
+        height: 240px;
+    }
+
+    .video-info {
+        width: 400px;
+        height: 220px;
+    }
+
+    .visual-left img {
+        width: 400px;
+        height: 330px;
+    }
 }
