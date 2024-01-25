@@ -95,12 +95,6 @@ p {
     margin: 0 auto;
 }
 
-.open {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
 header {
     display: flex;
     align-items: center;
@@ -504,51 +498,40 @@ form button {
 
 /*! ----------------BURGER MENU--------------------------- */
 .burger {
-    position: relative;
     display: none;
-    align-items: center;
-    justify-content: flex-end;
-    z-index: 50;
-    width: 50px;
-    height: 30px;
+    position: relative;
+    width: 45px;
+    height: 20px;
+    border: none;
+    background-color: #0C0C0E;
+    padding-right: 40px;
 }
 
 .burger span {
-    width: 80%;
-    height: 3px;
-    transform: scale(1);
-    background-color: #58A9A5;
-}
-
-.burger::before, .burger::after {
-    content: '';
     position: absolute;
-    height: 3px;
-    width: 100%;
-    background-color: #58A9A5;
-    transition: all 0.3s ease 0s;
+    width: 45px;
+    border: 1px solid #FFF;
+    transition: transform .5s, opacity .5s, background-color .5s;
 }
 
-.burger::before {
-    top: 0;
+.burger span:nth-child(1) {
+    transform: translateY(-10px);
 }
 
-.burger::after {
-    bottom: 0;
+.burger span:nth-child(3) {
+    transform: translateY(10px);
 }
 
-.burger.active span {
-    transform: scale(0);
+#header.open .burger span:nth-child(1) {
+    transform: translateY(0) rotate(45deg);
 }
 
-.burger.active::before {
-    top: 50%;
-    transform: rotate(-45deg) translate(0, -50%);
+#header.open .burger span:nth-child(2) {
+    opacity: 0;
 }
 
-.burger.active::after {
-    bottom: 50%;
-    transform: rotate(45deg) translate(0, 50%);
+#header.open .burger span:nth-child(3) {
+    transform: translateY(0) rotate(-45deg);
 }
 
 /*Todo  --------------------------Media css-------------------------------*/
@@ -663,16 +646,25 @@ form button {
 
 @media screen  and (max-width: 1210px){
     .menu {
-        display: none;
         position: fixed;
         top: 0;
-        right: 0;
+        right: -359px;
         z-index: 50;
         background-color: #58A9A5;
         width: 35%;
         height: 50%;
         padding: 82px 36px;
         border-radius: 0 0 0 10px;
+        transition: transform .5s;
+    }
+
+    header.open menu {
+        transform: translateX(-100%);
+        display: block;
+    }
+
+    .open {
+        overflow: hidden;
     }
 
     .menu-list {
