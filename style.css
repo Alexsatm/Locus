@@ -733,6 +733,10 @@ form button {
     .proj-block p {
         max-width: 637px;
     }
+
+    .visual-title , .visual-desc {
+        padding: 0;
+    }
 }
 
 /*? ------------------------------------------------- */
@@ -745,7 +749,6 @@ form button {
     .testimonial-left img {
         max-width: 700px;
     }
-
 }
 
 /*? ------------------------------------------------------ */
@@ -833,6 +836,8 @@ form button {
     }
 }
 
+/*?--------------------------------------------- */
+
 @media screen  and (max-width: 585px){
     p {
         font-size: 25px;
@@ -902,5 +907,56 @@ form button {
     .visual-left img {
         width: 400px;
         height: 330px;
+    }
+}
+
+/* ?---------------------------------------- */
+@media screen  and (max-width: 490px){
+    p {
+        font-size: 20px;
+    }
+
+    header button {
+        width: 120px;
+        height: 60px;
+        font-size: 19px;
+    }
+    .design-title {
+        font-size: 30px;
+    }
+
+    .design-desc {
+        font-size: 20px;
+    }
+    form {
+        border: 0;
+    }
+
+    .proj-block h3 {
+        text-align: center;
+    }
+
+    .pr-bl-2 h3 {
+        text-align: center;
+    }
+
+    .testimonial-brands {
+        gap: 43px 15px;
+      }
+
+    .testimonial-right-date {
+        gap: 0 35px;
+    }
+
+    .testimonial-right-date h4 {
+        font-size: 35px;
+      }
+
+    .testimonial-right-date h3 {
+        font-size: 16px;
+    }
+
+    .contact--inner {
+        margin-bottom: 30px;
     }
 }
