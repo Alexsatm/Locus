@@ -503,14 +503,14 @@ form button {
     width: 45px;
     height: 20px;
     border: none;
-    background-color: #0C0C0E;
     padding-right: 40px;
 }
 
 .burger span {
     position: absolute;
     width: 45px;
-    border: 1px solid #FFF;
+    height: 3px;
+    background-color:#58A9A5;
     transition: transform .5s, opacity .5s, background-color .5s;
 }
 
@@ -613,7 +613,6 @@ form button {
     }
 }
 
-
 /* ?-------------------------------------------------------------------- */
 
 @media screen  and (max-width: 1350px){
@@ -648,17 +647,26 @@ form button {
     .menu {
         position: fixed;
         top: 0;
-        right: -359px;
-        z-index: 50;
-        background-color: #58A9A5;
-        width: 35%;
-        height: 50%;
-        padding: 82px 36px;
-        border-radius: 0 0 0 10px;
+        right: -490px;
+        background-color: #0C0C0E;
+        margin-top: 102px;
         transition: transform .5s;
     }
 
-    header.open menu {
+    .h__list {
+        width: 332px;
+        height: 468px;
+        background-color: #0C0C0E;
+        flex-direction: column;
+        align-items: center;
+        padding-right: 20px;
+    }
+
+    .burger {
+        display: block;
+    }
+
+    #header.open .menu {
         transform: translateX(-100%);
         display: block;
     }
@@ -678,10 +686,6 @@ form button {
 
     .menu-link::hover {
         color: #FFF;
-    }
-
-    .burger {
-        display: flex;
     }
 
     .design-inner {
