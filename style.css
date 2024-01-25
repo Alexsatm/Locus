@@ -488,10 +488,10 @@ form button {
     border-radius: 20px 20px 20px 0px;
 }
 
-/** ------------------------------------- */
+/*! ----------------BURGER MENU--------------------------- */
 .burger {
     position: relative;
-    display: flex;
+    display: none;
     align-items: center;
     justify-content: flex-end;
     z-index: 50;
@@ -521,6 +521,20 @@ form button {
 
 .burger::after {
     bottom: 0;
+}
+
+.burger.active span {
+    transform: scale(0);
+}
+
+.burger.active::before {
+    top: 50%;
+    transform: rotate(-45deg) translate(0, -50%);
+}
+
+.burger.active::after {
+    bottom: 50%;
+    transform: rotate(45deg) translate(0, 50%);
 }
 
 /*Todo  --------------------------Media css-------------------------------*/
@@ -588,6 +602,7 @@ form button {
         flex-direction: column;
         align-items: center;
         margin-top: 160px;
+        margin-bottom: 70px;
     }
 
     .contact-left {
@@ -633,12 +648,25 @@ form button {
 /* ?------------------------------------------- */
 
 @media screen  and (max-width: 1210px){
-    /* .container {
-        max-width: 1000px;
-    } */
-
     .menu {
         display: none;
+        position: fixed;
+        top: 0;
+        right: 0;
+        z-index: 50;
+        background-color: #58A9A5;
+        width: 50%;
+        height: 60%;
+        padding: 30px 20px;
+    }
+
+    .menu-list {
+        flex-direction: column;
+        gap: 25px 0;
+    }
+
+    .burger {
+        display: flex;
     }
 
     .design-inner {
