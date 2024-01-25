@@ -917,9 +917,17 @@ form button {
     }
 
     header button {
-        width: 120px;
-        height: 60px;
-        font-size: 19px;
+        width: 115px;
+        height: 55px;
+        font-size: 17px;
+    }
+
+    .logo img {
+        max-width: 30px;
+    }
+
+    .logo a {
+        font-size: 25px;
     }
     .design-title {
         font-size: 30px;
