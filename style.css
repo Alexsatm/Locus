@@ -731,7 +731,7 @@ form button {
     }
 
     .proj-block p {
-        width: 637px;
+        max-width: 637px;
     }
 }
 
@@ -759,9 +759,42 @@ form button {
 }
 
 
-@media screen  and (max-width: 650px){
+@media screen  and (max-width: 695px){
+    button {
+        width: 194px;
+        height: 70px;
+    }
+
+    h2 {
+        font-size: 50px;
+    }
+
+    .works-desc {
+        font-size: 25px;
+    }
+
+    .video-block img {
+        max-width: 516px;
+        height: 290px;
+    }
+
+    .video-info {
+        width: 516px;
+        height: 240px;
+    }
+
+    .testimonial-left img {
+        max-width: 550px;
+        height: 500px;
+    }
+
     .testimonial-right {
         width: 550px;
+        height: 570px;
+    }
+
+    .testimonial-right-date  {
+        gap: 0 65px;
     }
 
     .testimonial-right-date h4 {
@@ -775,7 +808,21 @@ form button {
     .testimonial-right p {
         max-width: 396px;
         margin-top: 54px;
-        margin-bottom: 31px
+        margin-bottom: 31px;
+        font-size: 23px;
+    }
+
+    .visual-left img {
+        width: 500px;
+        height: 415px;
+    }
+
+    .visual-title {
+        font-size: 35px;
+    }
+
+    .visual-desc {
+        font-size: 20px;
     }
 }
 
