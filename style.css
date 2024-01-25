@@ -755,7 +755,6 @@ form button {
         width: 550px;
         height: 450px;
     }
-
 }
 
 
@@ -767,6 +766,14 @@ form button {
 
     h2 {
         font-size: 50px;
+    }
+
+    .design-title {
+        font-size: 50px;
+    }
+
+    .design-desc {
+        max-width: 500px;
     }
 
     .works-desc {
@@ -826,6 +833,54 @@ form button {
     }
 }
 
-/* @media screen  and (max-width: 400px){
+@media screen  and (max-width: 585px){
+    p {
+        font-size: 25px;
+    }
+
+
+    button {
+        width: 160px;
+        height: 66px;
+        font-size: 20px;
+    }
+
+    .testimonial-left img {
+        display: none;
+    }
+
+    .testimonial-right {
+        width: 450px;
+        height: 500px;
+    }
+
+
+    .testimonial-right p {
+        font-size: 20px;
+        max-width: 350px;
+        margin-top: 25px;
+    }
+
+    .contact--inner {
+        margin-top: 115px;
+    }
+
+    form {
+        width: 471px;
+        height: 395px;
+    }
+
+    input, textarea {
+        font-size: 20px;
+    }
+
+    input::placeholder, textarea::placeholder {
+        font-size: 20px;
+    }
+}
+
+/*? ------------------------------- */
+
+@media screen  and (max-width: 500px){
     
-} */
+}
