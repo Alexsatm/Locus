@@ -679,6 +679,13 @@ form button {
         margin-top: 162px;
     }
 
+    nav button {
+        margin-left: 0;
+        width: 271px;
+        height: 80px;
+        font-size: 25px;
+    }
+
     .menu-link {
         color: #FFF;
     }
@@ -994,14 +1001,9 @@ form button {
 
 /* ?---------------------------------------- */
 @media screen  and (max-width: 490px){
+
     p {
         font-size: 20px;
-    }
-
-    header button {
-        width: 115px;
-        height: 55px;
-        font-size: 17px;
     }
 
     .logo img {
@@ -1048,5 +1050,11 @@ form button {
 
     .contact--inner {
         margin-bottom: 30px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .menu {
+        width: 445px;
     }
 }
