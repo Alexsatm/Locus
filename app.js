@@ -28,3 +28,25 @@ const validateName = () => {
   }
 };
 
+
+const validateEmail = () => {
+    const email = document.querySelector('#email').value;
+  
+    if (email.lenght == 0) {
+      emailError.innerHTML = 'Требуется почта';
+      return false;
+    }
+  
+    if (!email.match(/^[A-Za-z\._\-[0-9]*[@][A-Za-z]*[\.][a-z]{2,4}$/)) {
+      emailError.innerHTML = 'Неверная почта';
+      return false;
+    }
+  };
+  
+  function validateForm() {
+    if (!validateName() || !validatePhone() || !validateEmail()) {
+      submitError.innerHTML = 'Заполните все поля';
+      return false;
+    }
+  }
+
